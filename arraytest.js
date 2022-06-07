@@ -43,3 +43,7 @@ var string = object.string;
 console.log(string);
 var arrayIntern = object.array;
 console.log(arrayIntern);
+
+//Example of destructuring an object:
+var {string, boolean, objecIntern} = object;
+console.log(string, boolean, objecIntern);
